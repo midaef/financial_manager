@@ -36,8 +36,8 @@ def main():
 	p('2. Register')
 	v = input('Input value: ')
 	if v == '1':
-		l1 = input('Input login: ')
-		p1 = input('Input password: ')
+		l2 = input('Input login: ')
+		p2 = input('Input password: ')
 	if v == '2':
 		l = input('Input new login: ')
 		p = input('Input new password: ')
