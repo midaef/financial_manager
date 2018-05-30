@@ -76,19 +76,19 @@ def main():
 					p('1. +money\n2. -money')
 					b = input('>>>')
 				if v == 'allmoney':
-					int(mone)
-					p(mone)
+					int(money)
+					p(money)
 					if b == '1':
 						m1 = int(input('Input money: '))
-						mone = mone + m1
+						money = money + m1
 					if b == '2':
 						m2 = int(input('Input money: '))
-						mone = mone - m2
+						money = money - m2
 				if v == 'allmoney':
-					int(mone)
-					p(mone)
+					int(money)
+					p(money)
 				if v == 'addallmoney':
-					mone = input('Input all money: ')
+					money = input('Input all money: ')
 if __name__ == '__main__':
 	create_table()
 	main()
